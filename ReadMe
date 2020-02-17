@@ -1,0 +1,29 @@
+
+Tic-Tac-Toe with 3 levels of difficulty: basic/easy, medium and hard
+
+Modes: user-user, user-ai, ai-ai
+AI options: easy, medium, hard
+
+The board is 3 X 3 with the following coordinates for user input:
+(1, 3) (2, 3) (3, 3)
+(1, 2) (2, 2) (3, 2)
+(1, 1) (2, 1) (3, 1)
+
+Example user input:
+start user easy
+/or
+start user hard
+/or
+start hard hard
+/or
+start hard easy
+
+exit - to exit the program
+
+The AI algorithms:
+Easy: just random picking of the coordinated from the remaining available steps
+Medium: make winning step if there is such, make blocking the counterpart win if there is such, otherwise make random step
+Hard: if the board is empty - make random step, otherwise MiniMax algorithm will make the step
+
+
+
